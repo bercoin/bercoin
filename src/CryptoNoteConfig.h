@@ -81,7 +81,7 @@ const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindice
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const uint64_t START_BLOCK_REWARD                            = (UINT64_C(125000000) * parameters::COIN);
+const uint64_t START_BLOCK_REWARD                            = (UINT64_C(25000000) * parameters::COIN);
 const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(150) * parameters::COIN);
 const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
 
@@ -121,8 +121,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "85ae8734f90bc1ee295ceb0ec05a49852d4dbbc9d1c27a619b5f4bdf26a0196e";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "34.242.219.207:25845",
-  "172.21.20.105:25845",
+  "52.19.68.130:25845",
+  "172.31.22.80:25845",
   "34.245.212.75:25845",
   "172.31.20.44:25845",
 
