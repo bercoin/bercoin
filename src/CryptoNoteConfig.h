@@ -86,7 +86,7 @@ const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(150) * 
 const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
 
 const char     CRYPTONOTE_NAME[]                             = "bercoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010601ff00018080c5ddf0959a16029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210112eb033daa7bb848b5c46dd05bef266761e847efd84ca063ee0f8bc2a479a31f";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010601ff00018080c1dfc9b7b804029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210100a9f22932e474f8f5b8c51977be07a303b98166db0e5ac2d272a1233eda30d3";
 const uint32_t GENESIS_NONCE                                 = 420;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
